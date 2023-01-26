@@ -4,7 +4,10 @@ export interface Departure {
     Delayed: boolean;
     ExpectedTime: string;
     Airline: string;
+    AirlineMobile: string;
     Destination: string;
+    DestinationName: string;
     StatusClass: string;
     Iata: string;
+    IataDestination: string;
 }
